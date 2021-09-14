@@ -59,7 +59,7 @@ public class Main {
 
                     if (choice == 'y') {
 
-                        System.out.println("Does your car have fuel injection? ");
+                        System.out.println("Does the car have fuel injection? ");
 
                         choice = sc.next().charAt(0);
 
@@ -69,11 +69,11 @@ public class Main {
 
                         else
 
-                            System.out.println("Check to ensure the choke is opening and closing.");
+                            System.out.println("Please check to ensure the choke is opening and closing.");
 
                     } else {
 
-                        System.out.println("This should not be possible.");
+                        System.out.println("This is not be possible.");
 
                     }
 
